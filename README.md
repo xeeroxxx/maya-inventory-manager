@@ -93,7 +93,7 @@ docker build -t maya-inventory-manager .
 2. Run the Docker container:
 
 ```bash
-docker run -p 3000:3000 -e NEXT_PUBLIC_SUPABASE_URL=your-supabase-url -e NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key maya-inventory-manager
+docker run -p 8437:3000 -e NEXT_PUBLIC_SUPABASE_URL=your-supabase-url -e NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key maya-inventory-manager
 ```
 
 ### Option 2: Using Docker Compose
@@ -124,7 +124,7 @@ cd maya-inventory-manager
 docker-compose up -d
 ```
 
-4. The application will be accessible at `http://your-proxmox-server-ip:3000`
+4. The application will be accessible at `http://your-proxmox-server-ip:8437`
 
 ## License
 

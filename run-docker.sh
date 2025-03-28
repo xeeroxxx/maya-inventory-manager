@@ -19,4 +19,4 @@ docker build -t maya-inventory-manager .
 echo "Starting Docker container..."
 docker-compose up -d
 
-echo "Maya Inventory Manager is running at http://localhost:3000" 
+echo "Maya Inventory Manager is running at http://localhost:8437" 
